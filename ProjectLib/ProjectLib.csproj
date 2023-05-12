@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net461</TargetFramework>
+		<RootNamespace>Com.Ascertia.Test.API</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<StartupObject></StartupObject>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="IKVM" Version="8.4.5" />
+	</ItemGroup>
+	<ItemGroup>
+		<IkvmReference Include="lib/MyHelloServiceImpl-1.0-all.jar">
+			<AssemblyName>My.Hello.Service.Java</AssemblyName>
+			<DisableAutoAssemblyName>false</DisableAutoAssemblyName>
+			<DisableAutoAssemblyVersion>false</DisableAutoAssemblyVersion>
+			<FallbackAssemblyName>My.Hello.Service.Java</FallbackAssemblyName>
+			<FallbackAssemblyVersion>1.0.0.0</FallbackAssemblyVersion>
+		</IkvmReference>
+	</ItemGroup>
+</Project>

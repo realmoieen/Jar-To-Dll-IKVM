@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>Com.Ascertia.Test.API.Exec</RootNamespace>
+    <RuntimeIdentifiers>win7-x86;win7-x64;win81-arm;linux-x64;linux-arm;linux-arm64;osx-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../ProjectLib/ProjectLib.csproj"></ProjectReference>
+  </ItemGroup>
+</Project>
